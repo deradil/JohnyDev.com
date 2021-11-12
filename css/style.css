@@ -1854,7 +1854,7 @@ footer p {
 }
 
 #tutbtn:hover {
-  background: lightcoral;
+  background: red;
   border-color: lightcoral !important;
   color: #000 !important;
   transition: all ease 0.5s;
