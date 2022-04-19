@@ -243,25 +243,19 @@ blockquote {
   z-index: -1;
   opacity: 0.85;
   position: absolute;
-  background: -moz-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 72%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 72%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 72%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+  background: -moz-linear-gradient(top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 72%,
+      rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 72%,
+      rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 72%,
+      rgba(0, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
 }
 
 .main-title {
@@ -386,8 +380,7 @@ blockquote {
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.3) url(../img/cd-icon-close.svg) no-repeat center
-    center;
+  background: rgba(0, 0, 0, 0.3) url(../img/cd-icon-close.svg) no-repeat center center;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -451,10 +444,12 @@ blockquote {
   .full-menu .fullmenu-content {
     padding: 6em 5%;
   }
+
   .full-menu .modal-close {
     height: 60px;
     width: 60px;
   }
+
   .full-menu p {
     font-size: 2rem;
   }
@@ -520,6 +515,7 @@ blockquote {
   0% {
     -webkit-transform: translateY(-50%) translateX(-2%);
   }
+
   100% {
     -webkit-transform: translateY(-50%) translateX(-98%);
   }
@@ -529,6 +525,7 @@ blockquote {
   0% {
     -moz-transform: translateY(-50%) translateX(-2%);
   }
+
   100% {
     -moz-transform: translateY(-50%) translateX(-98%);
   }
@@ -542,6 +539,7 @@ blockquote {
     -o-transform: translateY(-50%) translateX(-2%);
     transform: translateY(-50%) translateX(-2%);
   }
+
   100% {
     -webkit-transform: translateY(-50%) translateX(-98%);
     -moz-transform: translateY(-50%) translateX(-98%);
@@ -555,6 +553,7 @@ blockquote {
   0% {
     -webkit-transform: translateY(-50%) translateX(-98%);
   }
+
   100% {
     -webkit-transform: translateY(-50%) translateX(-2%);
   }
@@ -564,6 +563,7 @@ blockquote {
   0% {
     -moz-transform: translateY(-50%) translateX(-98%);
   }
+
   100% {
     -moz-transform: translateY(-50%) translateX(-2%);
   }
@@ -577,6 +577,7 @@ blockquote {
     -o-transform: translateY(-50%) translateX(-98%);
     transform: translateY(-50%) translateX(-98%);
   }
+
   100% {
     -webkit-transform: translateY(-50%) translateX(-2%);
     -moz-transform: translateY(-50%) translateX(-2%);
@@ -659,7 +660,7 @@ blockquote {
   font-weight: 500;
 }
 
-.social a:hover > img {
+.social a:hover>img {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
@@ -1143,7 +1144,7 @@ header {
   -moz-transition: color ease 0.3s;
 }
 
-.list-style li a:hover > span {
+.list-style li a:hover>span {
   color: #0067ff;
   transition: color ease 0.3s;
   -webkit-transition: color ease 0.3s;
@@ -1177,14 +1178,14 @@ header {
   opacity: 0;
 }
 
-.teammates .team:hover > img {
+.teammates .team:hover>img {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   transition: all ease 0.6s;
   -webkit-transition: all ease 0.6s;
 }
 
-.teammates .team:hover > .name {
+.teammates .team:hover>.name {
   transform: translateY(0px);
   opacity: 1;
   transition: all ease 0.6s;
@@ -1237,7 +1238,7 @@ header {
   -moz-transition: opacity ease 0.5s;
 }
 
-.blog-link:hover > .blog-title {
+.blog-link:hover>.blog-title {
   opacity: 0.7;
   transition: opacity ease 0.5s;
   -webkit-transition: opacity ease 0.5s;
@@ -1835,14 +1836,22 @@ footer p {
 .fab.fa-linkedin:hover {
   color: #0e76a8;
 }
+
 .fab.fa-youtube:hover {
   color: red;
 }
+
 .fab.fa-docker:hover {
   color: lightskyblue;
 }
+
 .fab.fa-hackerrank:hover {
   color: seagreen;
+}
+
+.fab.fa-facebook-f:hover {
+  color: #0067ff;
+
 }
 
 .homebtn {
@@ -1869,13 +1878,10 @@ footer p {
 #instbtn {
   transition: all .2s ease-in-out;
 }
+
 #instbtn:hover {
   background: lightgreen !important;
   border-color: lightgreen !important;
   color: #000 !important;
   transition: all ease 0.5s;
 }
-
-
-
-
