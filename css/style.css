@@ -1658,9 +1658,9 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  header {
+  /* header {
     background: #000;
-  }
+  } */
 
   .uptotop {
     float: left;
