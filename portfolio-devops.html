@@ -30,23 +30,38 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/scrollbar.css">
   <!-- Favicon Link -->
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="img/logo(white).ico">
   <style>
-    .project-btn {
-      color: #fff;
-      border: 1px solid #fff;
-      padding: 5px;
-      text-decoration: none;
-      background: transparent;
-      margin-left: 42%;
+
+    @media screen and (min-width: 769px) and (max-width: 991px) {
+      .education_main_wrapper_sm {
+        display: block;
+        margin-left: 20%;
+      }
+      .education_main_wrapper {
+        display: none;
+      }
     }
 
-    .project-btn:hover {
-      background-color: #0161ee;
-      color: #fff;
-      transition: all ease-in-out 0.5s;
-      border-color: #0161ee;
+    @media screen and (max-width: 768px) {
+      .education_main_wrapper_sm {
+        display: block;
+        margin-left: 5%;
+      }
+      .education_main_wrapper {
+        display: none;
+      }
     }
+
+    @media screen and (min-width: 992px) {
+      .education_main_wrapper {
+        display: block;
+      }
+      .education_main_wrapper_sm {
+        display: none;
+      }
+    }
+
   </style>
 
 
@@ -167,7 +182,9 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="education_main_wrapper ">
+                
+                <!-- LARGE SCREEN CONTENT -->
+                <div class="education_main_wrapper">
                   <!-- first box -->
                   <div class="education_box education_firsrtbox firstbox">
                     <div class="row">
@@ -630,6 +647,423 @@
                   </div>
                   <!-- twelve box -->
                 </div>
+                <!-- END LARGE SCREEN CONTENT -->
+                
+                <!-- SMALL SCREEN CONTENT -->
+                <div class="education_main_wrapper_sm">
+                  <!-- first box -->
+                  <div class="education_box education_firsrtbox firstbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+
+                          <div class="education_minfo education_rinfo ">
+                            <div class="prt_rightside_title">
+                              <div class="left_title_box">
+                                <div class="left_title">
+                                  <h4>01</h4>
+                                </div>
+                                <div class="right_title bg-black">
+                                  <h4>DevOps</h4>
+                                </div>
+                              </div>
+                            </div>
+                            <h3 class="education_place"><span data-hover="Diploma" class="data_hover">What </span> is
+                              DevOps?
+                            </h3>
+                            <p>Learn what is the DevOps Culture, How to study? and what
+                              tools you will
+                              need to be a DevOps Engineer.
+                            </p>
+                            <a href="https://www.youtube.com/watch?v=KvZ5xyLT-Dw" target="_blank">1. What is
+                              DevOps?</a> <br>
+                            <a href="https://www.youtube.com/watch?v=cydta_Aw9Wg&t=324s" target="_blank">2.
+                              How to study DevOps?</a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- first box -->
+                  
+                  <br>
+                  <br>
+
+                  <!-- second box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right">
+                          <a href="https://www.youtube.com/watch?v=MC5ZAyGl2bw&t=1408s" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>02</h4>
+                                  </div>
+                                  <div class="right_title bg-git">
+                                    <h4>Version Control</h4>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">GitHub </span>
+                                GitLab & Bitbucket
+                              </h3>
+                              <p>Learn what is the version control?, the basics of Git and
+                                how to create repository on
+                                GitHub, GitLab and Bitbucket.</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- second box -->
+
+                  <br>
+                  <br>
+
+                  <!-- third box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=konAsZCudrA" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>03</h4>
+                                  </div>
+                                  <div class="right_title bg-docker">
+                                    <h4>Docker</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Containerization
+                                </span> &amp;
+                                Virtualization</h3>
+                              <p>Learn what is Docker? and the basics commands</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- third box -->
+                  
+                  <br>
+                  <br>
+                  
+                  <!-- fourth box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=mZdU7r8Rf5c" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>04</h4>
+                                  </div>
+                                  <div class="right_title bg-cyan">
+                                    <h4>Docker Compose</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Docker Compose
+                                </span> & Ansible
+                              </h3>
+                              <p>Learn what is Docker-Compose? and what is it's benifits?
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fourth box -->
+                  
+                  <br>
+                  <br>
+
+                  <!-- fifth box -->
+                  <div class="education_box education_firsrtbox fifthbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=-86oMSw6pSc" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>05</h4>
+                                  </div>
+                                  <div class="right_title bg-ansible">
+                                    <h4>Ansible</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Ansible </span>
+                                Playbooks</h3>
+                              <p>Learn more about Ansible-Palybooks and how to use it?</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fifth box -->
+
+                  <br>
+                  <br>
+
+                  <!-- sixth box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=awqwdGM_Trw&t=2s" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>06</h4>
+                                  </div>
+                                  <div class="right_title bg-jenkins">
+                                    <h4>Jenkins</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">CI/CD</span>
+                                Tool
+                              </h3>
+                              <p>Learn what is Jenkins CI/CD? what is it's benifits? how
+                                to create a job?</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- sixth box -->
+
+                  <br>
+                  <br>
+
+                  <!-- seventh box -->
+                  <div class="education_box education_firsrtbox seventhbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=NeGdfKEXA-E" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>07</h4>
+                                  </div>
+                                  <div class="right_title bg-aws">
+                                    <h4>AWS</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Amazon </span>
+                                Web Services (Basics)</h3>
+                              <p>Learn how to deploy your website on AWS.</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- seventh box -->
+
+                  <br>
+                  <br>
+
+                  <!-- eight box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+
+                          <div class="education_minfo education_rinfo ">
+                            <div class="prt_rightside_title">
+                              <div class="left_title_box">
+                                <div class="left_title">
+                                  <h4>08</h4>
+                                </div>
+                                <div class="right_title bg-k8s">
+                                  <h4>Kubernetes</h4>
+                                </div>
+                              </div>
+                            </div>
+                            <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Container</span>
+                              Orchestration
+                            </h3>
+                            <p>Learn what is Kubernetes, how to run Kubernetes locally
+                              and how to create cluster on the cloud?</p>
+                            <a href="https://www.youtube.com/watch?v=YfJZBngbhM8&t=214s" target="_blank">What
+                              is Kubernetes? (Part_1)</a> <br>
+                            <a href="https://www.youtube.com/watch?v=kV4jINv3s-k" target="_blank">How to use
+                              Kubernetes locally? (Part_2)</a> <br>
+                            <a href="https://www.youtube.com/watch?v=4Tkxe0VjrYw&t=17s" target="_blank">How
+                              to create cluster on the cloud?
+                              (Part_3)</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- eight box -->
+
+                  <br>
+                  <br>
+
+                  <!-- nine box -->
+                  <div class="education_box education_firsrtbox ninebox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <div class="education_minfo education_rinfo ">
+                            <div class="prt_rightside_title">
+                              <div class="left_title_box">
+                                <div class="left_title">
+                                  <h4>09</h4>
+                                </div>
+                                <div class="right_title bg-terra">
+                                  <h4>Terraform</h4>
+                                </div>
+                              </div>
+                            </div>
+                            <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Infrastructure
+                              </span>
+                              As a Code</h3>
+                            <p>Learn what is Terraform? How to automate Infrastructure
+                              and create instences on the cloud?</p>
+                            <a href="https://www.youtube.com/watch?v=zF_N4flz8lw&t=1s" target="_blank">What
+                              is Infrastructure As a Code (Part_1)?</a> <br>
+                            <a href="https://www.youtube.com/watch?v=kV4jINv3s-k" target="_blank">How to
+                              build Infrastructure on the cloud? (Part_2)</a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- nine box -->
+
+                  <br>
+                  <br>
+
+                  <!-- ten box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=vrdlDh2GAPw" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>10</h4>
+                                  </div>
+                                  <div class="right_title bg-black">
+                                    <h4>DevOps Pipeline</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">Build,</span>
+                                CI/CD &amp; Deploy
+                              </h3>
+                              <p>Learn the whole DevOps pipeline using Docker, Ansible,
+                                Jenkins, Kubernetes and Terraform with AWS</p>
+                              <a href="https://www.youtube.com/watch?v=vrdlDh2GAPw" target="_blank">DevOps Pipeline</a>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ten box -->
+
+                  <br>
+                  <br>
+
+                  <!-- eleven box -->
+                  <div class="education_box education_firsrtbox elevenbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right ">
+                          <a href="https://www.youtube.com/watch?v=P3cxaPMO1wE" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>11</h4>
+                                  </div>
+                                  <div class="right_title bg-yellow">
+                                    <h4>Practice DevOps</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">DevOps </span>
+                                Tasks</h3>
+                              <p>Learn and Practice more about DevOps by solving the
+                                available tasks</p>
+                              <a href="https://www.youtube.com/watch?v=P3cxaPMO1wE" target="_blank">Practice DevOps |
+                                DevOps
+                                Tasks</a>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- eleven box -->
+
+                  <br>
+                  <br>
+
+                  <!-- twelve box -->
+                  <div class="education_box education_firsrtbox">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-8 col-sm-12 col-12 align-self-center">
+                        <div class="education_mright education_right">
+                          <a href="https://www.youtube.com/watch?v=ZPFj-ZHiALU" target="_blank">
+                            <div class="education_minfo education_rinfo ">
+                              <div class="prt_rightside_title">
+                                <div class="left_title_box">
+                                  <div class="left_title">
+                                    <h4>12</h4>
+                                  </div>
+                                  <div class="right_title bg-qa">
+                                    <h4>Q&amp;A</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="education_place"><span data-hover="Diploma" class="data_hover">DevOps</span>
+                                Interview Questions
+                              </h3>
+                              <p>Finally learn more about the common DevOps Interview
+                                questions so you can get your dream job as a DevOps
+                                Engineer</p>
+                              <a href="https://www.youtube.com/watch?v=ZPFj-ZHiALU" target="_blank">DevOps Interview
+                                Questions</a>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- twelve box -->
+                </div>
+                <!-- END SMALL SCREEN CONTENT -->
               </div>
             </div>
           </div>
