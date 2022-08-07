@@ -200,6 +200,14 @@ ul {
     background-color: rgb(255, 81, 126)
 }
 
+.bg-vagrant {
+    background-color: rgb(17 ,89 ,204)
+}
+
+.bg-bash {
+    background-color: rgb(40 ,48 ,55)
+}
+
 .bg-git {
     background-color: rgb(241, 80, 47)
 }
@@ -1556,6 +1564,46 @@ span.value a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+
+/* BashBox */
+.education_box.bashbox h1 {
+    border-color: rgb(40, 48, 55);
+    color: rgb(40, 48, 55);
+}
+
+.education_box.bashbox .edu_mainyear h1:after {
+    border-right-color: rgb(40, 48, 55);
+}
+
+.education_box.bashbox .edu_mainyear h1:before {
+    border-color: rgb(40, 48, 55);
+}
+
+.education_box.bashbox .edu_mainyear:after {
+    background: rgb(40, 48, 55);
+}
+/* BashBox */
+
+/* vagrantbox */
+.education_box.vagrantbox h1 {
+    border-color: rgb(17, 89, 204) ;
+    color: rgb(17, 89, 204) ;
+}
+
+.education_box.vagrantbox .edu_mainyear h1:after {
+    border-left-color:rgb(17, 89, 204) ;
+}
+
+.education_box.vagrantbox .edu_mainyear h1:before {
+    border-color: rgb(17, 89, 204) ;
+}
+
+.education_box.vagrantbox .edu_mainyear:after {
+    background: rgb(17, 89, 204) ;
+}
+
+/* vagrantbox */
 
 .education_firsrtbox .education_left {
     float: right;
